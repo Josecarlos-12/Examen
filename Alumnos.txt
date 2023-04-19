@@ -1,0 +1,7 @@
+Alumno 1:  Alvaro Ramos
+Alumno 2: Marbin Taboada
+Alumno 3:  Jean Castro
+Alumno 4:  Anthony Gutierrez
+Alumno 5: Jose Leiva
+Alumno 6: Daniel calderon
+Alumno 7: Mateo Monge
