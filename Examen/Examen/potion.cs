@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace Examen
 {
-    class Program
+    class potion
     {
-        static void Main(string[] args)
-        {
-            menu menu = new menu();
-            menu.Execute();
-        }
     }
 }

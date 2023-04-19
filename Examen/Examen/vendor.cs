@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace Examen
 {
-    class Program
+    abstract class vendor
     {
-        static void Main(string[] args)
+        protected float money;
+
+        protected vendor(float money)
         {
-            menu menu = new menu();
-            menu.Execute();
+            this.money = money;
         }
     }
 }
