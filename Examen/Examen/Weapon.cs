@@ -13,5 +13,14 @@ namespace Examen
         {
             this.damage = damage;
         }
+        protected virtual float GetDamage()
+        {
+            return damage;
+        }
+
+        public override string IShowData()
+        {
+            return $"{name}: Su daño es de {GetDamage()}";
+        }
     }
 }   
