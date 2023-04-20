@@ -46,6 +46,8 @@
     <Compile Include="item.cs" />
     <Compile Include="Items.cs" />
     <Compile Include="menu.cs" />
+    <Compile Include="NPC.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="potion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
