@@ -6,16 +6,36 @@ using System.Threading.Tasks;
 
 namespace Examen
 {
-    abstract class item : vendor
+    class Item : IShowData
     {
-        protected item(float money, float potion) : base(money)
-        {
+        protected string name;
+        protected string type;
+        protected float price;
 
+        protected Item(string name, string type, float price)
+        {
+            this.name = name;
+            this.type = type;
+            this.price = price;
         }
 
-        protected virtual float getmoney()
+        protected virtual string GetName()
         {
-            return money;
+            return name;
+        }
+
+        protected virtual float GetPrice()
+        {
+            return price;
+        }
+
+        protected virtual string WhatType()
+        {
+            return type;
+        }
+        public virtual string IShowData()
+        {
+            return $"Su nombre es{GetName()}, Su precio es de {GetPrice()} y su tipo es {WhatType()}";
         }
     }
 }

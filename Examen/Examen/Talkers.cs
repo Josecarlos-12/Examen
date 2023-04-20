@@ -13,5 +13,15 @@ namespace Examen
         {
             this.textList = textList;
         }
+        protected virtual string GetTextList()
+        {
+            return textList;
+        }
+        public override string IShowData()
+        {
+            return $"{name}: Su diálogo es{GetTextList()}";
+        }
     }
+
+ 
 }

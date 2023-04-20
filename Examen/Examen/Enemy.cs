@@ -19,6 +19,28 @@ namespace Examen
             this.level = level;
             this.givenExperience = givenExperience;
         }
+
+        protected virtual float GetDamage()
+        {
+            return damage;
+        }
+        protected virtual int GetLevel()
+        {
+            return level;
+        }
+
+        protected virtual float GetExperience()
+        {
+            return givenExperience;
+        }
+        protected virtual string GetItemList()
+        {
+            return itemList;
+        }
+        public override string IShowData()
+        {
+            return $"{name}: Es nivel {GetLevel()}, da {GetExperience()} de experiencia, tiene{GetDamage()} de daño y Sus items son{GetItemList()}";
+        }
     }
 }
 

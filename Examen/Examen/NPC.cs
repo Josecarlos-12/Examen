@@ -19,5 +19,24 @@ namespace Examen
                 this.type = type;
 
             }
+
+        protected virtual string GetName()
+        {
+            return name;
         }
+
+        protected virtual float GetLife()
+        {
+            return life;
+        }
+
+        protected virtual string WhatType()
+        {
+            return type;
+        }
+        public virtual string IShowData()
+        {
+            return $"Su nombre es{GetName()}, Su vida es de {GetLife()} y su tipo es {WhatType()}";
+        }
+    }
 }

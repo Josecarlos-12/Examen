@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Examen
 {
-    class Weapon : Items, IShowData
+    class Weapon : Item, IShowData
     {
         protected float damage;
         public Weapon(float damage, string name, string type, float price) : base(name, type, price)
