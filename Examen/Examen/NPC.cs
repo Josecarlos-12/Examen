@@ -5,9 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Examen
-{
-    class NPC
-    {
+{    
         abstract class NPC : IShowData
         {
             protected string name;
@@ -22,5 +20,4 @@ namespace Examen
 
             }
         }
-    }
 }
