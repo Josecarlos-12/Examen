@@ -36,7 +36,7 @@ namespace Examen
         }
         public virtual string IShowData()
         {
-            return $"Su nombre es{GetName()}, Su vida es de {GetLife()} y su tipo es {WhatType()}";
+            return $"Su nombre es {GetName()}, Su vida es de {GetLife()} y su tipo es {WhatType()}";
         }
     }
 }

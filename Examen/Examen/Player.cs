@@ -46,7 +46,7 @@ namespace Examen
         }
         public string IShowData()
         {
-            return $"Su nombre es{GetName()}, Su nivel es {GetLevel()}, su experiencia es {GetExperience()}, tiene con {GetMoney()} monedas y sus items son{GetItemList()}";
+            return $"Su nombre es {GetName()}, Su nivel es {GetLevel()}, su experiencia es {GetExperience()}, tiene {GetMoney()} monedas y sus items son {GetItemList()}";
         }
     }
 }
